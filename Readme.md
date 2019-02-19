@@ -30,7 +30,7 @@ $ git remote set-url origin git@github.com:gtdc/GitTest.git
 
 ### Working together
 ```sh
-$ fork repo
+$ begin by forking repo online
 $ git clone REPO-LINK
 ```
 
