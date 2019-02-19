@@ -2,7 +2,7 @@
 ### Creating a repo online for the <b>1st time</b>
 
 
-``` sh
+```sh
 $ echo "# GitTest" >> README.md
 $ touch readme.md
 $ git init
@@ -14,7 +14,7 @@ $ username + password
 ```
 ### Adding changes and files to repo
 
-``` sh
+```sh
 $ git add . 				// . = add all changes
 $ git add -u 				// To remove file from repo, that you removed locally
 $ git commit -m "comment"
@@ -24,6 +24,17 @@ $ username + password
 
 ### Remember username + password for every push
 
-``` sh
+```sh
 $ git remote set-url origin git@github.com:gtdc/GitTest.git
+```
+
+### Working together
+```sh
+$ fork repo
+$ git clone REPO-LINK
+```
+
+### want to remove a file from online github repo but keep it locally
+```sh
+$ git rm --cached localFileName
 ```
