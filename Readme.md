@@ -19,3 +19,9 @@ $ git commit -m "comment"
 $ git push					// already connected staging to remote no need for -u origin master
 $ username + password
 ```
+
+### Remember username + password for every push
+
+``` sh
+$ git remote set-url origin git@github.com:gtdc/GitTest.git
+```
