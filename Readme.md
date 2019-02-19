@@ -1,8 +1,9 @@
 
-### Creating a repo online for the <b>1st time</b>\
-echo "# GitTest" >> README.md\
+### Creating a repo online for the <b>1st time</b>
+
 
 ``` sh
+$ echo "# GitTest" >> README.md
 $ touch readme.md
 $ git init
 $ git add README.md
@@ -15,6 +16,7 @@ $ username + password
 
 ``` sh
 $ git add . 				// . = add all changes
+$ git add -u 				// To remove file from repo, that you removed locally
 $ git commit -m "comment"
 $ git push					// already connected staging to remote no need for -u origin master
 $ username + password
