@@ -38,5 +38,3 @@ $ git clone REPO-LINK
 ```sh
 $ git rm --cached localFileName
 ```
-
-meh
