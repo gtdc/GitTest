@@ -37,4 +37,5 @@ $ git clone REPO-LINK
 ### want to remove a file from online github repo but keep it locally
 ```sh
 $ git rm --cached localFileName
+# add localFilename to .gitignore file and then commit these changes
 ```
