@@ -39,3 +39,12 @@ $ git clone REPO-LINK
 $ git rm --cached localFileName
 # add localFilename to .gitignore file and then commit these changes
 ```
+
+### Commands for fixing problems
+```sh
+# undo multiple commits
+$ git reset --hard commitSHA###...= changes staging index and local folder to match online repo commit
+
+# Removing 3 commits from online github repo
+$ git push -f origin HEAD^^^:branchNameToUndoLast3Pushs
+```
