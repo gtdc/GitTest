@@ -44,7 +44,9 @@ $ git rm --cached localFileName
 ```sh
 # undo multiple commits
 $ git reset --hard commitSHA###...= changes staging index and local folder to match online repo commit
+ex: git reset --hard 46ad021418695f428215319473520100b2ad9d76
 
 # Removing 3 commits from online github repo
 $ git push -f origin HEAD^^^:branchNameToUndoLast3Pushs
+ex: git push -f origin HEAD^:master
 ```
